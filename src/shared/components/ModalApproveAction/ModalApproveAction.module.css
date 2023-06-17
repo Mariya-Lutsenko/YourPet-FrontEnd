@@ -1,0 +1,138 @@
+.modalTitle {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #111111;
+  margin-top: 68px;
+  margin-bottom: 50px;
+}
+
+.titleDelete {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #111111;
+  margin-top: 68px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .modalTitle {
+    font-size: 36px;
+    line-height: 49px;
+    margin-top: 60px;
+  }
+  .modalApprove {
+    width: 608px;
+  }
+}
+
+.modalApprove {
+  width: 280px;
+}
+
+.modalBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #111111;
+  max-width: 393px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  text {
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 52px;
+    margin-bottom: 60px;
+  }
+}
+
+.modalBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 28px;
+  margin-right: 167 px;
+  margin-left: 7px;
+  width: 129px;
+  height: 40px;
+  color: #54adff;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #54adff;
+  border-radius: 40px;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+.modalBtn:hover,
+.modalBtn:focus {
+  background: linear-gradient(290.46deg, #419ef1 0%, #9bd0ff 107.89%);
+  color: #fef9f9;
+}
+
+.modalIcon {
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+  color: #419ef1;
+  transform: rotate(180deg);
+}
+
+.modalBtn:hover .modalIcon {
+  color: #fef9f9;
+}
+
+.whiteBtn {
+  /* background-color: white; */
+  background-color: transparent;
+  color: #54adff;
+  border: 2px solid #54adff;
+  margin-right: 17px;
+}
+
+.myСomponent.dark .titleDelete {
+  color: #c3bfbf;
+}
+
+.myСomponent.dark .modalTitle {
+  color: #c3bfbf;
+}
+
+.myСomponent.dark .text {
+  color: #c3bfbf;
+}
+
+.myСomponent.dark .modalBtn {
+  color: #c3bfbf;
+}
+
+.myСomponent.dark .modalBtn {
+  border: 2px solid #2f5a5f;
+}
+
+.myСomponent.dark .modalBtn:hover {
+  background: linear-gradient(290.46deg, #55787c 0%, #64999e 107.89%);
+  color: #d9d2d2;
+}

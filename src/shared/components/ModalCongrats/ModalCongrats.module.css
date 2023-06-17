@@ -1,0 +1,100 @@
+.title {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #111111;
+  margin-top: 68px;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 36px;
+    line-height: 49px;
+    margin-top: 60px;
+  }
+}
+
+.modalCongrats {
+  width: 280px;
+}
+
+@media (min-width: 768px) {
+  .modalCongrats {
+    width: 608px;
+  }
+}
+
+.text {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #111111;
+}
+
+@media (min-width: 768px) {
+  text {
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 52px;
+    margin-bottom: 60px;
+  }
+}
+
+.modalBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 28px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 248px;
+  height: 40px;
+  background: #54adff;
+  outline: none;
+  border: transparent;
+  border-radius: 40px;
+  color: #fef9f9;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+.modalBtn:hover {
+  background: linear-gradient(290.46deg, #419ef1 0%, #9bd0ff 107.89%);
+  cursor: pointer;
+}
+
+.modalIcon {
+  fill: #fef9f9;
+  margin-left: 12px;
+}
+
+.myСomponent.dark .title {
+  color: #d9d2d2;
+}
+
+.myСomponent.dark .text {
+  color: #d9d2d2;
+}
+
+.myСomponent.dark .modalBtn {
+  background-color: #417075;
+  color: #d9d2d2;
+  border: 1px solid #d9d2d2;
+}
+
+.myСomponent.dark .modalBtn:hover {
+  background: linear-gradient(290.46deg, #55787c 0%, #64999e 107.89%);
+  color: #d9d2d2;
+}

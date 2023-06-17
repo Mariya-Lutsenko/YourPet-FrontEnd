@@ -1,0 +1,69 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.label {
+  color: #111111;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.36;
+}
+
+.input {
+  border-radius: 40px;
+  color: #888888;
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #54adff;
+  max-width: 260px;
+}
+.input:focus {
+  border-color: #00c3ad;
+}
+
+.ErrorText {
+  position: absolute;
+  bottom: -20%;
+  left: 5%;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.36px;
+  color: #f43f5e;
+}
+
+@media screen and (min-width: 768px) {
+  .inputContainer {
+    margin-bottom: 24px;
+  }
+
+  .label {
+    font-size: 20px;
+  }
+
+  .input {
+    min-width: 400px;
+    font-size: 16px;
+  }
+}
+
+.myСomponent.dark .label {
+  color: #b2abab;
+}
+
+.myСomponent.dark .input {
+  color: #d9d2d2;
+  background-color: #467c82;
+  border: 1px solid #2f5a5f;
+}
+
+.myСomponent.dark .input:focus {
+  border: none;
+  border: 1px solid #d9d2d2;
+}
+
+.myСomponent.dark .input::placeholder {
+  color: #b2abab;
+}
